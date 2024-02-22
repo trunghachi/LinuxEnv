@@ -56,5 +56,34 @@ a short course from [Introduction to the Linux shell](https://genomeinfo.github.
 * `head -n 5 *`
 * `for filename in basilisk.dat unicorn.dat minotaur.dat; echo $filename; do head -n 2 | tail -n 1; done`
 * `for t in 0 1 2 3 4 5 6 7 8 9; do echo $t; done`
+
+
 * `for t in {0..9}; do echo $t; done`
 
+Lệnh grep trong Linux là một công cụ hữu ích để tìm kiếm và thao tác với các mẫu chuỗi trong các file văn bản. Tên của nó được lấy từ lệnh ed (trình soạn thảo) g/re/p (tìm kiếm toàn cục theo biểu thức chính quy và in các dòng khớp), phản ánh chức năng cốt lõi của nó. Lệnh grep được sử dụng rộng rãi bởi các lập trình viên, quản trị viên hệ thống, và người dùng nhờ hiệu quả và đa dạng trong việc xử lý dữ liệu văn bản. Trong bài viết này, chúng tôi sẽ khám phá các khía cạnh khác nhau của lệnh grep.
+
+Cú pháp cơ bản của lệnh grep là như sau:
+
+grep [options] pattern [files]
+
+Trong đó:
+
+* [options]: Là các cờ dòng lệnh thay đổi hành vi của grep.
+* [pattern]: Là biểu thức chính quy bạn muốn tìm kiếm.
+* [files]: Là tên của các file bạn muốn tìm kiếm trong. Bạn có thể chỉ định nhiều file để tìm kiếm đồng thời.
+Một số tùy chọn phổ biến của lệnh grep là:
+
+-i: Bỏ qua chữ hoa chữ thường khi tìm kiếm.
+-v: In ra tất cả các dòng không khớp với mẫu.
+-n: Hiển thị các dòng khớp và số dòng của chúng.
+-c: Chỉ in ra số lượng các dòng khớp với mẫu.
+-l: Chỉ hiển thị danh sách các tên file khớp với mẫu.
+-w: Chỉ khớp với các từ nguyên.
+-o: Chỉ in ra phần khớp của một dòng khớp, với mỗi phần trên một dòng đầu ra riêng biệt.
+-A n: In ra dòng khớp và n dòng sau kết quả.
+-B n: In ra dòng khớp và n dòng trước kết quả.
+-C n: In ra dòng khớp và n dòng trước và sau kết quả.
+-E: Xử lý mẫu như một biểu thức chính quy mở rộng (ERE).
+-e exp: Chỉ định biểu thức với tùy chọn này. Có thể sử dụng nhiều lần.
+-f file: Lấy các mẫu từ file, mỗi mẫu trên một dòng.
+-r: Tìm kiếm đệ quy trong thư mục.
