@@ -1,0 +1,126 @@
+    1  pip install jupyterlab
+    2  jupyter lab
+    3  exit
+    4  conda
+    5  git config --global user.name "trunghachi"
+    6  git config --global user.name
+    7  git config --global user.email "hct2016@hotmail.com"
+    8  git config --get user.email
+    9  git commit --amend --reset-author
+   10  git config --global user.name
+   11  git config --get user.email
+   12  ls
+   13  cd shell-lesson-data
+   14  ls
+   15  cd
+   16  bash
+   17  ls
+   18  cd shell-lesson-data
+   19  ls -l -h
+   20  cd north -pacific-gyre
+   21  cd north-pacific-gyre
+   22  ls -F
+   23  ls --color="red"
+   24  ls --color=1
+   25  ls --color==1
+   26  ls --color=tty
+   27  ls --color=if-tty
+   28  ls
+   29  ls -l -h
+   30  clear
+   31  ls -l -h
+   32  ls -l
+   33  ls -l -h
+   34  clear
+   35  ls -l -h
+   36  pwd
+   37  ls
+   38  cd 2012-07-03
+   39  cd
+   40  cd..
+   41  cd...
+   42  pwd
+   43  cls
+   44  cd Desktop/
+   45  cls
+   46  cls
+   47  clear
+   48  d ..
+   49  cd..
+   50  ls -F
+   51  tree
+   52  tree
+   53  cd C:\Users\chitrunh\Desktop\shell-lesson-data
+   54  cd C:/Users/chitrunh/Desktop/shell-lesson-data
+   55  pwd
+   56  cd
+   57  cd
+   58  pwd
+   59  cd C:/Users/chitrunh/Desktop/
+   60  ls
+   61  ls --help|less
+   62  grep --help|less
+   63  grep -wi the haiku.txt 
+   64  ls -Flr
+   65  grep -v the haiku.txt 
+   66  grep -r Yesterday .
+   67  grep - r the .
+   68  grep - r the writing/
+   69  grep - r the .
+   70  grep -r the .
+   71  grep "of" haiku.txt 
+   72  grep -E "of" haiku.txt 
+   73  grep -i "of" haiku.txt 
+   74  grep -w "of" haiku.txt 
+   75  cat haiku.txt 
+   76  grep -E "^.o" haiku.txt 
+   77  grep -E "^?o" haiku.txt 
+   78  grep -E "^.o" haiku.txt 
+   79  ls
+   80  wc LittleWomen.txt 
+   81  wc LittleWomen.txt | grep "Jo"
+   82  grep --help
+   83  gep -w "Jo" LittleWomen.txt 
+   84  grep -w "Jo" LittleWomen.txt 
+   85  grep -w "Jo" LittleWomen.txt } wc -l
+   86  grep -w "Jo" LittleWomen.txt | wc -l
+   87  grep -cw "Jo" LittleWomen.txt | wc -l
+   88  grep -cw "Jo" LittleWomen.txt
+   89  grep -wc "Jo" LittleWomen.txt
+   90  grep -wc Jo LittleWomen.txt
+   91  grep -wc Meg LittleWomen.txt
+   92  grep -wc Beth LittleWomen.txt
+   93  grep -wc Amy LittleWomen.txt
+   94  for name in Beth Amy Jo Meg; do grep -wc $name LittleWomen.txt ; done
+   95  for name in Beth Amy Jo Meg; do echo $name; grep -wc $name LittleWomen.txt ; done
+   96  for name in Beth Amy Jo Meg; do echo $name; grep -w $name LittleWomen.txt ; done
+   97  for name in Beth Amy Jo Meg; do echo $name; grep -wc $name LittleWomen.txt ; done
+   98  find . -type d
+   99  find .
+  100  cd ..
+  101  ls -r
+  102  ls -R
+  103  find -type d |wc -l
+  104  find |wc -l
+  105  find -type f |wc -l
+  106  find -type l |wc -l
+  107  find . -name numbers.txt
+  108  find . -name numbers*
+  109  find . -name "numbers*"
+  110  touch execise-data/numbers.dot
+  111  touch /execise-data/numbers.dot
+  112  touch shell-lesson-data/execise-data/numbers.dot
+  113  touch /shell-lesson-data/execise-data/numbers.dot
+  114  wc -l $(find .-name "*.txt")
+  115  ls
+  116  wc -l $(find .-name "*.txt")
+  117  wc -l $(find . -name "*.txt")
+  118  wc -l $(find . -name "*.txt" -mtime -1)
+  119  find . -name "*.txt" -mtime -1
+  120  wc -l $(find . -name "*.txt" -mtime -1)
+  121  wc -l $(find . -name "*.txt" -mtime -l -type f)
+  122  wc -l $(find . -name "*.txt" -mtime -1)
+  123  wc -l $(find . -name "*.txt" -mtime -1 -type f)
+  124  history
+  125  history commands.txt
+  126  history > commands.txt
