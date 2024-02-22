@@ -8,7 +8,7 @@
 
 a short course from [Introduction to the Linux shell](https://genomeinfo.github.io/2024-02-22-QIMR-Berghofer/)
 
-pwd: where you are
+* `pwd`: where you are
 * `ls --help|less`: using with /search_word
 * `ls -F`:
 * `ls -R`:
@@ -33,11 +33,24 @@ pwd: where you are
 * `sort length.txt`: sort (not numerical)
 * `sort -n length.txt`: number sort
 * `sort -n length.txt length.sort.txt`
-* `echo hello`
+* `echo hello`* 
 * `echo hello > a_file.txt`
 * `wc -l *.pdb | sort -n > sorted.txt`
 * `head -n 1 sorted.txt`:
 * `tail -n 3 sorted.txt`:
 * `wc --total=never -l *.pdb |sort -n -r | head -1 >longest`
 
+* `cut -d , -f 2 animals.csv`
+* `cut -f 2 | -d animals.csv`
+* `cut  -d , -f 2 animals.csv`
+* `head -4 animals.csv | tail -1`
+* `sed -n '4p' animals.csv`
+* `cut -f 2 animals.csv | sort | uniq`
+* `cut -d \t -f 2 animals.csv | sort | uniq`
+
+
+* `head -n 5 *`
+* `for filename in basilisk.dat unicorn.dat minotaur.dat; echo $filename; do head -n 2 | tail -n 1; done`
+* `for t in 0 1 2 3 4 5 6 7 8 9; do echo $t; done`
+* `for t in {0..9}; do echo $t; done`
 
