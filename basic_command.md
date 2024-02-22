@@ -1,5 +1,11 @@
-# 
-## basic
+# Introduction to the Linux shell
+## Working With Files and Directories
+### How can I move around on my computer?
+### How can I see what files and directories I have?
+### How can I specify the location of a file or directory on my computer?
+### How can I create, copy, and delete files and directories?
+### How can I edit files?
+
 a short course from [Introduction to the Linux shell](https://genomeinfo.github.io/2024-02-22-QIMR-Berghofer/)
 
 pwd: where you are
