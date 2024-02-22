@@ -1,6 +1,6 @@
 # 
 ## basic
-for more read at [Introduction to the Linux shell](https://genomeinfo.github.io/2024-02-22-QIMR-Berghofer/)
+a short course from [Introduction to the Linux shell](https://genomeinfo.github.io/2024-02-22-QIMR-Berghofer/)
 
 pwd: where you are
 * `ls --help|less`
@@ -18,5 +18,7 @@ pwd: where you are
 nano a: (create and) edit file a
 touch a: create file a 
 
-##Piples and Filters
+## Piples and Filters
 * `wc a.txt`: word count
+* `wc -l *.pdb`
+* `wc -l *pdb > length.txt`: create a `length.txt` to store wc information
