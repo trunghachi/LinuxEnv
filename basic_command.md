@@ -73,17 +73,17 @@ Trong đó:
 * [files]: Là tên của các file bạn muốn tìm kiếm trong. Bạn có thể chỉ định nhiều file để tìm kiếm đồng thời.
 Một số tùy chọn phổ biến của lệnh grep là:
 
--i: Bỏ qua chữ hoa chữ thường khi tìm kiếm.
--v: In ra tất cả các dòng không khớp với mẫu.
--n: Hiển thị các dòng khớp và số dòng của chúng.
--c: Chỉ in ra số lượng các dòng khớp với mẫu.
--l: Chỉ hiển thị danh sách các tên file khớp với mẫu.
--w: Chỉ khớp với các từ nguyên.
--o: Chỉ in ra phần khớp của một dòng khớp, với mỗi phần trên một dòng đầu ra riêng biệt.
--A n: In ra dòng khớp và n dòng sau kết quả.
--B n: In ra dòng khớp và n dòng trước kết quả.
--C n: In ra dòng khớp và n dòng trước và sau kết quả.
--E: Xử lý mẫu như một biểu thức chính quy mở rộng (ERE).
--e exp: Chỉ định biểu thức với tùy chọn này. Có thể sử dụng nhiều lần.
--f file: Lấy các mẫu từ file, mỗi mẫu trên một dòng.
--r: Tìm kiếm đệ quy trong thư mục.
+* `-i`: Bỏ qua chữ hoa chữ thường khi tìm kiếm.
+* `-v`: In ra tất cả các dòng không khớp với mẫu.
+* `-n`: Hiển thị các dòng khớp và số dòng của chúng.
+* `-c`: Chỉ in ra số lượng các dòng khớp với mẫu.
+* `-l`: Chỉ hiển thị danh sách các tên file khớp với mẫu.
+* `-w`: Chỉ khớp với các từ nguyên.
+* `-o`: Chỉ in ra phần khớp của một dòng khớp, với mỗi phần trên một dòng đầu ra riêng biệt.
+* `-A n`: In ra dòng khớp và n dòng sau kết quả.
+* `-B n`: In ra dòng khớp và n dòng trước kết quả.
+* `-C n`: In ra dòng khớp và n dòng trước và sau kết quả.
+* `-E`: Xử lý mẫu như một biểu thức chính quy mở rộng (ERE).
+* `-e exp`: Chỉ định biểu thức với tùy chọn này. Có thể sử dụng nhiều lần.
+* `-f file`: Lấy các mẫu từ file, mỗi mẫu trên một dòng.
+* `-r`: Tìm kiếm đệ quy trong thư mục.
