@@ -8,7 +8,11 @@
 
 a short course from [Introduction to the Linux shell](https://genomeinfo.github.io/2024-02-22-QIMR-Berghofer/)
 
+* * Ctrl+R: reverse search in history 
+* `history`: history of all command lines
 * `pwd`: where you are
+* `>`: create or overwrite
+* `>>': create or append
 * `ls --help|less`: using with /search_word
 * `ls -F`:
 * `ls -R`:
