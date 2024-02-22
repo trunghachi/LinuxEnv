@@ -64,7 +64,7 @@ Lệnh grep trong Linux là một công cụ hữu ích để tìm kiếm và th
 
 Cú pháp cơ bản của lệnh grep là như sau:
 
-grep [options] pattern [files]
+`grep [options] pattern [files]`
 
 Trong đó:
 
