@@ -3,10 +3,10 @@
 a short course from [Introduction to the Linux shell](https://genomeinfo.github.io/2024-02-22-QIMR-Berghofer/)
 
 pwd: where you are
-* `ls --help|less`
-* `ls -F`
-* `ls -R`
-* `ls -l -h`: long with human readable 
+* `ls --help|less`: using with /search_word
+* `ls -F`:
+* `ls -R`:
+* `ls -l -h`: long with human-readable 
 * `rm \rm a`: delete file a
 * `cp a b`: copy file a to b and rename
 * `mv a b`: move file a to b, rename if they are in the same folder 
@@ -15,10 +15,23 @@ pwd: where you are
 * `mkdir a/b/c`
 * `rmdir -p a/b/c` a and b must not contain other files
 
-nano a: (create and) edit file a
-touch a: create file a 
+* `nano a`: (create and) edit file a
+* `touch a`: create file a
+* `vim a`: create file a
+* `cat a`: show the content of file a
 
 ## Piples and Filters
 * `wc a.txt`: word count
-* `wc -l *.pdb`
+* `wc -l *.pdb`: count the words of all files with the extension .pdb
 * `wc -l *pdb > length.txt`: create a `length.txt` to store wc information
+* `sort length.txt`: sort (not numerical)
+* `sort -n length.txt`: number sort
+* `sort -n length.txt length.sort.txt`
+* `echo hello`
+* `echo hello > a_file.txt`
+* `wc -l *.pdb | sort -n > sorted.txt`
+* `head -n 1 sorted.txt`:
+* `tail -n 3 sorted.txt`:
+* `wc --total=never -l *.pdb |sort -n -r | head -1 >longest`
+
+
