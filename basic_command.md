@@ -71,6 +71,7 @@ Trong đó:
 * [options]: Là các cờ dòng lệnh thay đổi hành vi của grep.
 * [pattern]: Là biểu thức chính quy bạn muốn tìm kiếm.
 * [files]: Là tên của các file bạn muốn tìm kiếm trong. Bạn có thể chỉ định nhiều file để tìm kiếm đồng thời.
+
 Một số tùy chọn phổ biến của lệnh grep là:
 
 * `-i`: Bỏ qua chữ hoa chữ thường khi tìm kiếm.
