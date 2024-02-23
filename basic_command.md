@@ -7,7 +7,7 @@
 ### How can I edit files?
 
 a short course from [Introduction to the Linux shell](https://genomeinfo.github.io/2024-02-22-QIMR-Berghofer/)
-
+* `./`: mean current directory, be careful with `rm` command and always put `./` before the directory name, especially when working on HPC.
 * `Ctrl+R`: reverse search in history 
 * `history`: history of all command lines
 * `pwd`: where you are
