@@ -124,3 +124,5 @@
   124  history
   125  history commands.txt
   126  history > commands.txt
+  127  du -h ~ | sort -hr
+
