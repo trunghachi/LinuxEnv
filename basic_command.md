@@ -211,3 +211,4 @@ Một số tùy chọn phổ biến của lệnh grep là:
 `Find -size 0 -type f -delete`
 #to show the size of subfolders
 du -h --max-depth=2 ~ | sort -hr
+rm -rf ~/.cache/*
